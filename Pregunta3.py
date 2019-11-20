@@ -18,5 +18,7 @@ while edad >= 18 or edad <= 4 :
     edad = int(input("Escriba su edad: "))
 edades.append(edad)
 
+suma= edades[0]+edades[1]+edades[2]+edades[3]+edades[4]/5
 
+print("El rpomedio de las edades es de ", suma)
 print(nombres,sex,edades)
